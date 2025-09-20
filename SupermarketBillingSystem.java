@@ -84,7 +84,7 @@ public class SupermarketBillingSystem {
                         System.out.println("Cart is empty! Add items before generating bill.");
                     } else {
                         System.out.println("\nGenerating Bill...");
-                        total = 0.0;`
+                        total = 0.0;
                         for (Item item : cart) {
                             total += item.getTotalPrice();
                         }
@@ -106,3 +106,4 @@ public class SupermarketBillingSystem {
         }
     }
 }
+
